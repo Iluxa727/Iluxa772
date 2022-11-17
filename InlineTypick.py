@@ -1,6 +1,6 @@
 from .. import loader , utils 
 from asyncio import sleep
- import random
+import random
 from telethon.tl.types import Message
 #scope inline
  #Description new module 
