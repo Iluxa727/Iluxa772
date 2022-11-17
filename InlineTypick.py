@@ -9,10 +9,10 @@ from telethon.tl.types import Message
  #.typ
  #meta developer: @AmErIcaNec_16 
 @loader.tds 
-class TypickMod(loader.Module):
+class BatiaMod(loader.Module):
 	strings = {"name":"Typick"}
 	
-	async def typick(self,mesagge:Message) -> None:
+	async def Ba(self,mesagge:Message) -> None:
 		"Модуль для незнаю чого"
 			...
 		args = utils.get_args_raw(message)
