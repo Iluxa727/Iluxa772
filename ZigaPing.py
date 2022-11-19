@@ -1,4 +1,4 @@
-#
+##
 #
 # 
 # 
@@ -20,7 +20,7 @@ class zing(loader.Module):
     @loader.command()
     async def zing(self, message):
         """показ характеристик вашего сервера"""
-        cpu = psutil.cpu_percent()
+        CPU = psutil.cpu_percent()
         Ram = psutil.virtual_memory().percent
         ping_start = time.time()
         await message.edit(
@@ -30,6 +30,6 @@ class zing(loader.Module):
 
         await message.edit(
         f"<emoji document_id=5172533495162995360>⚡</emoji> <b>PING:</b> {round((ping_finish - ping_start)*1000, 2)} ms\n"
-        f"<emoji document_id=5172861866887611077>💻</emoji> <b>CPU:</b> {cpu}%\n"
-        f"<emoji document_id=5174693704799093859>🔞</emoji> <b>RAM:</b> {mem}%"
+        f"<emoji document_id=5172861866887611077>💻</emoji> <b>CPU:</b> {CPU}%\n"
+        f"<emoji document_id=5174693704799093859>🔞</emoji> <b>RAM:</b> {Ram}%"
         )
