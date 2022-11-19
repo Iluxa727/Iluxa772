@@ -1,6 +1,6 @@
 #
 #
-#meta developer: @Foxi_Modules
+#meta developer: @FoxiModules
 #scope Hikka_only
 import random
 from .. import loader
