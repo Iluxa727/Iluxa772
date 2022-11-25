@@ -7,7 +7,7 @@ from telethon.tl.types import Message
  
 
 @loader.tds
-class Program,Soft,script(loader.Module):
+class ProgramSoft,script(loader.Module):
     """Soft program script"""
     
     strings = {"name": "RandomSoft"}
