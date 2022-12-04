@@ -1,4 +1,4 @@
-#meta developer: iluha_sh
+#meta developer: @iluha_sh
 from .. import loader
 from asyncio import sleep
 
